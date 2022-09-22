@@ -32,7 +32,7 @@ public class Person {
         }
         else {
             gen = "Error";
-            pronoun = "Thyne";
+            pronoun = "Their";
         }
         return "\nThis persons name is: " + name + ". " + pronoun + " gender is: " + gen + ".";
     }
